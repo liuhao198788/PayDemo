@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PayDemo</string>
+    <string name="dsp_voucher_no">凭证号：%s</string>
+</resources>

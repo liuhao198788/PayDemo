@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/dsp_voucher_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dsp_voucher_no"
+        android:textSize="20dp" />
+    
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_below="@id/dsp_voucher_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置"/>
+    
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_below="@id/btn_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="签到"/>
+    
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_below="@id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消费(完整流程)"/>
+    
+    <Button
+        android:id="@+id/btn_qpay"
+        android:layout_below="@id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="云闪付(简易流程)"/>
+    
+</RelativeLayout>
+
